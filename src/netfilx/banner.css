@@ -1,0 +1,40 @@
+.banner{
+    height: 100vh;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    color: #fff;
+}
+.banner-container{
+    width: 40vw;
+    text-align: center;
+
+}
+.banner h1{
+    font-size: 3rem;
+    font-weight:900 ;
+    margin: 20px;
+}
+.banner-container a{
+    border: 2px solid;
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color:blue ;
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    
+    }
+    .banner-container a:hover{
+        background-color: red;
+    }
+    .banner-container p{
+        margin: 20px;
+        font-size: 24px;
+    }
+    
+    
